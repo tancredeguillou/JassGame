@@ -1,8 +1,6 @@
 # Brief
 Jass Card Game in Object Oriented Programming code
 
-Object Oriented Programming Practice Course, Professor Michel Schinz, 2018
-
 Objective : Be able to play a Swiss card game called Jass. That is implementing the rules and the behavior of the cards using O-O Programming. Adding the possibility to play online. Adding a good looking, comprehensive visual interface. Testing and debugging the additional code every week in order to maintain maximum robustness of the programm.
 
 ## To have a look at this project in detail, please see the full description in the `README.pdf` file.
