@@ -1,13 +1,15 @@
-# oop_project_jass
+# Brief
 Jass Card Game in Object Oriented Programming code
 
 Object Oriented Programming Practice Course, Professor Michel Schinz, 2018
 
 Objective : Be able to play a Swiss card game called Jass. That is implementing the rules and the behavior of the cards using O-O Programming. Adding the possibility to play online. Adding a good looking, comprehensive visual interface. Testing and debugging the additional code every week in order to maintain maximum robustness of the programm.
 
-TO HAVE A LOOK AT THIS PROJECT IN DETAIL, PLEASE SEE THE FULL DESCRIPTION ON THE PDF README FILE. THIS IS ONLY A BRIEF DESCRIPTION AND INDICATION TO RUN THE PROGRAMM.
+## To have a look at this project in detail, please see the full description in the `README.pdf` file.
 
-To launch the program, run the LocalMain class as follow :
+# Overview
+
+To launch the program, run the `LocalMain` class as follow :
 
 The program accepts 4 or 5 arguments. The first 4 specify the players, and the last, optional, specifies the seed to be used to generate the seeds of the different random generators of the program.
 Each player is specified by means of a string of characters composed of one to three components, separated from each other by a two-point (:).
@@ -25,4 +27,4 @@ For example, the following arguments : s h:Marie r:Céline:128.178.243.14 s::20
 - a simulated player named David, with 20,000 iterations.
 
 If one of the arguments has been entered incorrectly, the console will output this same message, telling where the problem is situated.
-To launch the program as a remote player, one need to give its IP address to the local player, and simply launch the RemotePlayer class without any arguments needed. After that, the game will start as soon as the local player launches its program.
+To launch the program as a remote player, one need to give its IP address to the local player, and simply launch the `RemotePlayer` class without any arguments needed. After that, the game will start as soon as the local player launches its program.
